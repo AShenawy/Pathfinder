@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -247,6 +248,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1182,11 +1184,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (13)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1242,6 +1239,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (13)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
 --- !u!4 &196605021 stripped
@@ -1257,11 +1259,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1316,6 +1313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -1677,6 +1679,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1754,6 +1757,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1861,10 +1865,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
-      propertyPath: m_Name
-      value: Wall (3)
+      propertyPath: m_Size.y
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
@@ -1921,15 +1930,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.00001
       objectReference: {fileID: 0}
-    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
-      propertyPath: m_Size.y
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1
+      propertyPath: m_Name
+      value: Wall (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877231, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
@@ -2069,6 +2073,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2216,10 +2221,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
-      propertyPath: m_Name
-      value: Wall (4)
+      propertyPath: m_Size.y
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
@@ -2276,15 +2286,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.00001
       objectReference: {fileID: 0}
-    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
-      propertyPath: m_Size.y
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1
+      propertyPath: m_Name
+      value: Wall (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877231, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
@@ -2813,6 +2818,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2886,6 +2892,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3218,11 +3225,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3277,6 +3279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -3488,6 +3495,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3565,6 +3573,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3897,10 +3906,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
-      propertyPath: m_Name
-      value: Wall
+      propertyPath: m_Size.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
@@ -3957,15 +3971,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
-      propertyPath: m_Size.y
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1
+      propertyPath: m_Name
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877231, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
@@ -3991,11 +4000,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4050,6 +4054,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -4186,6 +4195,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4703,11 +4713,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (14)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4762,6 +4767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -6332,6 +6342,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7078,11 +7089,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7137,6 +7143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -7228,11 +7239,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7287,6 +7293,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -7348,6 +7359,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7496,6 +7508,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7570,6 +7583,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5882353, g: 0, b: 0.0055369213, a: 0.9019608}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8053,6 +8067,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8126,6 +8141,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8278,6 +8294,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8430,6 +8447,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8537,10 +8555,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
-      propertyPath: m_Name
-      value: Wall (1)
+      propertyPath: m_Size.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
@@ -8597,15 +8620,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
-      propertyPath: m_Size.y
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7673149115127877216, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1
+      propertyPath: m_Name
+      value: Wall (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877231, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
@@ -8931,11 +8949,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (15)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8990,6 +9003,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -9081,11 +9099,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9140,6 +9153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -9202,6 +9220,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.02745098, g: 0.5882353, b: 0, a: 0.9019608}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9530,11 +9549,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483438441}
     m_Modifications:
-    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 7673149115127877217, guid: 2749ee20be3c7344c8fde04da7766afc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9589,6 +9603,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673149115127877218, guid: 2749ee20be3c7344c8fde04da7766afc,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2749ee20be3c7344c8fde04da7766afc, type: 3}
@@ -9994,7 +10013,7 @@ PrefabInstance:
     - target: {fileID: 1122839290687079442, guid: ce71504bae4ab234290bee62072cbd2a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -2.908
       objectReference: {fileID: 0}
     - target: {fileID: 1122839290687079442, guid: ce71504bae4ab234290bee62072cbd2a,
         type: 3}
@@ -10124,11 +10143,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6667579484598532297, guid: 349df60f3f781e14eaa7bab54dcd3d62,
-        type: 3}
-      propertyPath: m_Name
-      value: Goal
-      objectReference: {fileID: 0}
     - target: {fileID: 6667579484598532295, guid: 349df60f3f781e14eaa7bab54dcd3d62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10183,6 +10197,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6667579484598532297, guid: 349df60f3f781e14eaa7bab54dcd3d62,
+        type: 3}
+      propertyPath: m_Name
+      value: Goal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 349df60f3f781e14eaa7bab54dcd3d62, type: 3}
